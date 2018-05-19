@@ -1,6 +1,6 @@
 def looping
   counter = counter + 1
-	puts "WinWingardium Leviosa"
+	puts "Wingardium Leviosa"
 	until counter = Infinity 
 	break
 end
