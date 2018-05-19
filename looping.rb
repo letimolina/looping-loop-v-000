@@ -1,8 +1,9 @@
-def looping
-  counter = counter + 1
-	puts "WinWingardium Leviosa"
-	until counter = Infinity 
-	break
+loop do 
+  counter += 1
+  puts "Wingardium Leviosa"
+  if counter >= Infinity
+    break
+  end
 end
 
 #call your method here
